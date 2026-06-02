@@ -8,6 +8,13 @@
       "when": 1780381889472,
       "tag": "0000_flawless_katie_power",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1780386803660,
+      "tag": "0001_needy_golden_guardian",
+      "breakpoints": true
     }
   ]
 }

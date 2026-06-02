@@ -4,6 +4,9 @@ import { blogs } from "../../db/schema"
 
 
 export const getBlogs = async () => {
+  console.log("db", db)
+  console.log("query", db.query)
+
   return db.query.blogs.findMany()
 }
 
