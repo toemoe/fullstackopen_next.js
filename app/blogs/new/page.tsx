@@ -1,9 +1,9 @@
 import { createBlog } from "../../actions/blogs"
 
-const NewNote = () => {
+const NewBlog = () => {
   return (
     <div>
-      <h2>Create a new note</h2>
+      <h2>Create a new blog</h2>
       <form action={createBlog}>
         <div><label>Title<input type="text" name="title" required /></label></div>
         <div><label>Author<input type="text" name="author" required /></label></div>
@@ -14,4 +14,4 @@ const NewNote = () => {
   )
 }
 
-export default NewNote
+export default NewBlog

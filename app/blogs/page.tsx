@@ -5,7 +5,6 @@ const Blogs = async ({ searchParams }: { searchParams: Promise<{ filter?: string
   const {filter = ""} = await searchParams
   let blogs = (await getBlogs()).toSorted((a, b) => b.likes - a.likes)
   if (filter) blogs = blogs.filter(blog => blog.title.toLowerCase().includes(filter.toLowerCase()))
-
   return (
     <div>
       <h2>Blogs</h2>
