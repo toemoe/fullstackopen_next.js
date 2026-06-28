@@ -13,6 +13,7 @@ const BlogPage = async ({ params }: { params: Promise<{id: string}> }) => {
     <div>
       <h2>{blog.author}</h2>
       <p>{blog.title}</p>
+      <p>owner blog: {blog.userId}</p>
       <a href={blog.url} target="_blank"rel="noopener noreferrer">{blog.url}</a>
       <p>{blog.likes}</p>
       <form action={toggleBlogLike}>

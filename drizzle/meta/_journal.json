@@ -15,6 +15,13 @@
       "when": 1780386803660,
       "tag": "0001_needy_golden_guardian",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1781787496227,
+      "tag": "0002_adorable_rumiko_fujikawa",
+      "breakpoints": true
     }
   ]
 }
